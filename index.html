@@ -19,10 +19,21 @@
         </section>
         <main>
             <div class="leftside">
-               <h1>
-                   <a href="mystory.html" title="My Story"> My Story</a>
-               </h1>
-               }
+               <button type="button" onclick="myfun()">
+            My Story 
+            </button>
+               
+               <p id="jdemo">
+                   Read More
+
+               </p>
+               <script>
+                   function myfun() {
+                       document.getElementById("jdemo"). style.fontSize="35px"
+                       document.getElementById("jdemo"). style.color="black"
+                       document.getElementById("jdemo"). style.backgroundColor="pink"
+                   }
+               </script>
                 <a href="mystory.html" title="My Story"> <img src="images/mystory.JPG" alt="My Story" width="200vh" height="200vh">
                 </a>
             </div>
